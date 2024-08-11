@@ -5,6 +5,8 @@ import Main from './Main';
 import Noticias from './Noticias';
 import Comunidad from './Cumunidad';
 import Perfil from './Perfil';
+import Registrar from './Registrar';
+
 const Nav = () => {
   return (
     <Router>
@@ -21,6 +23,7 @@ const Nav = () => {
         <Route path="/" element={<Main />} /> 
         <Route path="/noticias" element={<Noticias />} />
         <Route path='/perfil' element={<Perfil />} />
+        <Route path='registrar' element={<Registrar />} />
         <Route path="/comunidad" element={<Comunidad />} />
         <Route path="/eventos" element={<Eventos />} />
         
