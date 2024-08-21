@@ -1,17 +1,19 @@
-import React, { useState } from 'react';
-import Footer from './Footer';
+import React, { useState } from "react";
+import Footer from "./Footer";
 
 const Registrar = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [email, setEmail] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
 
   const handleRegister = (event) => {
     event.preventDefault();
-    alert(`Usuario: ${username}\nContraseña: ${password}\nCorreo Electrónico: ${email}`);
-    setUsername('');
-    setPassword('');
-    setEmail('');
+    alert(
+      `Usuario: ${username}\nContraseña: ${password}\nCorreo Electrónico: ${email}`
+    );
+    setUsername("");
+    setPassword("");
+    setEmail("");
   };
 
   return (
@@ -44,14 +46,17 @@ const Registrar = () => {
         />
         <div className="button-group">
           <button type="submit">Registrarse</button>
-          <button type="button" onClick={() => window.location.href = '/'} className="register-button">
+          <button
+            type="button"
+            onClick={() => (window.location.href = "/")}
+            className="register-button"
+          >
             Página Principal
           </button>
         </div>
       </form>
-      <Footer />
     </div>
   );
-}
+};
 
 export default Registrar;
