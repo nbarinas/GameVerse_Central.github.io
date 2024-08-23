@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GameVerse_Central.github.io/static/css/main.c44feb94.css",
+    "main.js": "/GameVerse_Central.github.io/static/js/main.655ddf4b.js",
+    "static/js/453.90897f2f.chunk.js": "/GameVerse_Central.github.io/static/js/453.90897f2f.chunk.js",
+    "static/media/Banner 1000 x 240 Ga.png": "/GameVerse_Central.github.io/static/media/Banner 1000 x 240 Ga.b15cc85985ac33c63218.png",
+    "index.html": "/GameVerse_Central.github.io/index.html",
+    "main.c44feb94.css.map": "/GameVerse_Central.github.io/static/css/main.c44feb94.css.map",
+    "main.655ddf4b.js.map": "/GameVerse_Central.github.io/static/js/main.655ddf4b.js.map",
+    "453.90897f2f.chunk.js.map": "/GameVerse_Central.github.io/static/js/453.90897f2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c44feb94.css",
+    "static/js/main.655ddf4b.js"
+  ]
+}
